@@ -1,3 +1,4 @@
+// Create an appbar having an icon in the start, and 3 icons at the end.
 import 'package:flutter/material.dart';
 
 class question2 extends StatefulWidget {

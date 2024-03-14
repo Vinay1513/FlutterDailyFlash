@@ -1,3 +1,4 @@
+// Create an appbar having an icon in the start,title in the middle and icon in the end.
 import 'package:flutter/material.dart';
 
 class question1 extends StatefulWidget {

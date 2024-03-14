@@ -1,14 +1,11 @@
 //import 'package:assignment1/ques2.dart';
+
 import 'package:flutter/material.dart';
-//import 'package:assignment1/ques1.dart';
-//import 'package:assignment1/ques3.dart';
-//import 'package:assignment1/ques4.dart';
-//import 'package:assignment1/ques5.dart';
-//import 'package:assignment1/ques6.dart';
-//import 'package:assignment1/ques7.dart';
-//import 'package:assignment1/ques8.dart';
-//import 'package:assignment1/ques9.dart';
-import 'package:assignment1/ques10.dart';
+//import 'package:assignment1/ques11.dart';
+//import 'package:assignment1/ques12.dart';
+//import 'package:assignment1/ques13.dart';
+//import 'package:assignment1/ques14.dart';
+import 'package:assignment1/ques15.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +19,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: question10(),
+      home: question15(),
     );
   }
 }
