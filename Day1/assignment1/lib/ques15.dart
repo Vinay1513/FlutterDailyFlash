@@ -16,23 +16,19 @@ class _question15State extends State<question15> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Container(
-          width: 300,
-          height: 300,
-          decoration: const BoxDecoration(
-            shape: BoxShape.circle,
-            gradient: LinearGradient(
-              begin: Alignment.centerLeft,
-              end: Alignment.centerRight,
-              transform: GradientRotation(30),
-              colors: [
-                Color.fromRGBO(255, 34, 22, 11),
-                Color.fromRGBO(32, 142, 215, 0.961),
-              ],
-            ),
+          child: Container(
+        width: 300,
+        height: 300,
+        decoration: const BoxDecoration(
+          shape: BoxShape.circle,
+          gradient: LinearGradient(
+            colors: [Colors.red, Colors.blue],
+            begin: Alignment.centerLeft,
+            end: Alignment.centerRight,
+            stops: [0.5, 0.5],
           ),
         ),
-      ),
+      )),
     );
   }
 }
