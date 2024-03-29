@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:assignment1/ques25.dart';
+import 'package:assignment1/ques30.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Daily flash',
       debugShowCheckedModeBanner: false,
-      home: question25(),
+      home: question30(),
     );
   }
 }
