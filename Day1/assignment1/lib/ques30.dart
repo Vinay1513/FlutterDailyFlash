@@ -1,8 +1,4 @@
-//
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class question30 extends StatefulWidget {
   const question30({super.key});
