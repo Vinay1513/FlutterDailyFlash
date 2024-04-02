@@ -45,6 +45,7 @@ class _question27State extends State<question27> {
               ),
               child: Image.network(
                 "https://miro.medium.com/v2/resize:fit:1400/1*MfhIfzrC6x6T1-szQkjtCg.jpeg",
+                fit: BoxFit.cover,
               ),
             ),
             const SizedBox(
