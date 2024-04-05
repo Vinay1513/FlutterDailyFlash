@@ -70,7 +70,7 @@ class _question37State extends State<question37> {
                       ),
                       child: Center(
                         child: Text(
-                          imgText[index], // Use dynamic data if needed
+                          imgText[index],
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
