@@ -1,8 +1,9 @@
 //import 'package:assignment1/ques2.dart';
 
+import 'package:assignment1/ques55.dart';
 import 'package:flutter/material.dart';
 
-import 'package:assignment1/ques45.dart';
+//import 'package:assignment1/ques49.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Daily flash',
       debugShowCheckedModeBanner: false,
-      home: question45(),
+      home: question55(),
     );
   }
 }
